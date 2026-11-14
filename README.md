@@ -1,2 +1,2 @@
-# final-project-5310
-Group project repository
+# Group 3 Final Project 5310
+
