@@ -1,6 +1,7 @@
 # Group 3 Final Project 5310
 
-**Data 5310 Final Project, Seattle University **
+**Data 5310 Final Project, Seattle University**
+
 Team: Njenga, Naomi, Prithika, Devlin
 
 ## Research question: 
