@@ -3,17 +3,17 @@
 **Data 5310 Final Project, Seattle University **
 Team: Njenga, Naomi, Prithika, Devlin
 
-##Research question: 
+## Research question: 
 
 Do countries with higher EV adoption have lower transport emissions, and does the cleanliness of their electricity matter? 
 
-##Countries and years:
+## Countries and years:
 
 This project covers 10 countries ranging from 2010 to 2025. We hand-picked them to get a mix of different regions and their range of EV adoption levels
 
 The 10 countries are: Norway, China, United States, Germany, United Kingdom, Brazil, Thailand, Japan, India, and South Africa
 
-##Data
+## Data
 
 All four datasets came from [Our World in Data]. Each team member cleaned one dataset, and then they were merged into 'Ev_clean_energy_analysis.ipynb'
 
@@ -25,7 +25,7 @@ All four datasets came from [Our World in Data]. Each team member cleaned one da
 | Share of electricity from renewables | `renewable_share` | % of electricity | 2010–2025 | `renewables_cleaned_1.csv` |
 
 
-##Merged dataset
+## Merged dataset
 
 The four datasets were joined using 'Entity', 'Code', and 'Year'. Then they were limited to 20210-2025 year range. This resulted in about 160 rows and 13 columns.
 
@@ -33,7 +33,7 @@ Some values are missing; we are aware of them:
 - 'Transport_CO2' stops at 2023, so 2024-2025 will be empty (about 20 rows)
 - 'Ev share' for South Africa starts in 2013, so 2010-2012 was empty (about 3 rows)
 
-##Repository content
+## Repository content
 ```
 ev_clean_energy_analysis.ipynb     # loads, cleans and merges the four datasets
 ev_share_clean.csv                 # EV share of new car sales
